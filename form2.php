@@ -27,7 +27,7 @@ include("conexion.php")
                         <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form1.php">Formulario #1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/orm2.php">Formulario #2</a>
+                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form2.php">Formulario #2</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form3.php">Formulario #3</a>
