@@ -21,22 +21,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://tarea2sistemaexpertosandres.herokuapp.com/form1.php">Formulario #1</a>
+                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form1.php">Formulario #1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://tarea2sistemaexpertosandres.herokuapp.com/form2.php">Formulario #2</a>
+                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/orm2.php">Formulario #2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://tarea2sistemaexpertosandres.herokuapp.com/form3.php">Formulario #3</a>
+                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form3.php">Formulario #3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://tarea2sistemaexpertosandres.herokuapp.com/form4.php">Formulario #4</a>
+                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form4.php">Formulario #4</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://tarea2sistemaexpertosandres.herokuapp.com/form5.php">Formulario #5</a>
+                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form5.php">Formulario #5</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://tarea2sistemaexpertosandres.herokuapp.com/form6.php">Formulario #6</a>
+                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form6.php">Formulario #6</a>
                     </li>
                 </ul>
             </div>
