@@ -14,29 +14,29 @@
 <body style="background-color: black;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: blue;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://tareasistemaexpertosandres.herokuapp.com/index.php">Principal</a>
+            <a class="navbar-brand" href="/index.php">Principal</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form1.php">Formulario #1</a>
+                        <a class="nav-link" href="/form1.php">Formulario #1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form2.php">Formulario #2</a>
+                        <a class="nav-link" href="/form2.php">Formulario #2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form3.php">Formulario #3</a>
+                        <a class="nav-link" href="/form3.php">Formulario #3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form4.php">Formulario #4</a>
+                        <a class="nav-link" href="/form4.php">Formulario #4</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form5.php">Formulario #5</a>
+                        <a class="nav-link" href="/form5.php">Formulario #5</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://ampliacionexpertoandres.herokuapp.com/form6.php">Formulario #6</a>
+                        <a class="nav-link" href="/form6.php">Formulario #6</a>
                     </li>
                 </ul>
             </div>
@@ -128,10 +128,10 @@
                         $rowCosto = mysqli_fetch_array($costoResultQ);
                         $FrecuenciaCostoA = $rowCosto['FrecuenciaCostoA'];
                         $FrecuenciaCostoB = $rowCosto['FrecuenciaCostoB'];
-                        $SumaA = $FrecuenciaFiabilidadA + $FrecuenciaLinksA + $FrecuenciaCapacidadA + $FrecuenciaCostoA;
-                        $SumaB = $FrecuenciaFiabilidadB + $FrecuenciaLinksB + $FrecuenciaCapacidadB + $FrecuenciaCostoB;
+                        $MultiplicacionA = $FrecuenciaFiabilidadA * $FrecuenciaLinksA * $FrecuenciaCapacidadA * $FrecuenciaCostoA;
+                        $MultiplicacionB = $FrecuenciaFiabilidadB * $FrecuenciaLinksB * $FrecuenciaCapacidadB * $FrecuenciaCostoB;
 
-                        if ($SumaA > $SumaB) {
+                        if ($MultiplicacionA > $MultiplicacionB) {
                             $result = 'A';
                         } else {
                             $result = 'B';

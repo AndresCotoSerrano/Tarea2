@@ -531,7 +531,7 @@
                 $MultiplicacionConvergente=$CaConvergente*$EcConvergente*$EcConvergente*$OrConvergente;
                 $MultiplicacionDivergente=$CaDivergente*$EcDivergente*$EcDivergente*$OrDivergente;
 
-                $arrayS = [$SumaAsimilador, $SumaAcomodador, $SumaConvergente, $SumaDivergente];
+                $arrayS = [$MultiplicacionAsimilador, $MultiplicacionAcomodador, $MultiplicacionConvergente, $MultiplicacionDivergente];
                 sort($arrayS, SORT_NUMERIC);
                 $estilo = $arrayS[3];
                 if ($MultiplicacionAsimilador == $estilo) {
