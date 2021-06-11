@@ -526,10 +526,10 @@
                 $OrConvergente = $ROR['OrConvergente'];
                 $OrDivergente = $ROR['OrDivergente'];
 
-                $MultiplicacionAsimilador=$CaAsimilador*$EcAsimilador*$EcAsimilador*$OrAsimilador;
-                $MultiplicacionAcomodador=$CaAcomodador*$EcAcomodador*$EcAcomodador*$OrAcomodador;
-                $MultiplicacionConvergente=$CaConvergente*$EcConvergente*$EcConvergente*$OrConvergente;
-                $MultiplicacionDivergente=$CaDivergente*$EcDivergente*$EcDivergente*$OrDivergente;
+                $MultiplicacionAsimilador=$CaAsimilador*$EcAsimilador*$EcAsimilador*$OrAsimilador*0.184684684684685;
+                $MultiplicacionAcomodador=$CaAcomodador*$EcAcomodador*$EcAcomodador*$OrAcomodador*0.310810810810811;
+                $MultiplicacionConvergente=$CaConvergente*$EcConvergente*$EcConvergente*$OrConvergente*0.27027027027027;
+                $MultiplicacionDivergente=$CaDivergente*$EcDivergente*$EcDivergente*$OrDivergente*0.310810810810811;
 
                 $arrayS = [$MultiplicacionAsimilador, $MultiplicacionAcomodador, $MultiplicacionConvergente, $MultiplicacionDivergente];
                 sort($arrayS, SORT_NUMERIC);
