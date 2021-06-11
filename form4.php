@@ -108,10 +108,10 @@ include("conexion.php")
                         $RecintoDivergente = $rowRecintoQ['RecintoDivergente'];
                         $RecintoConvergente = $rowRecintoQ['RecintoConvergente'];
                         //se suman las probabilidades
-                        $MultiplicacionAsimilador = $SexoAsimilador * $PromedioAsimilador * $RecintoAsimilador;
-                        $MultiplicacionAcomodador = $SexoAcomodador * $PromedioAcomodador * $RecintoAcomodador;
-                        $MultiplicacionDivergente = $SexoDivergente * $PromedioDivergente * $RecintoDivergente;
-                        $MultiplicacionConvergente = $SexoConvergente * $PromedioConvergente * $RecintoConvergente;
+                        $MultiplicacionAsimilador = $SexoAsimilador * $PromedioAsimilador * $RecintoAsimilador*0.272727272727273;
+                        $MultiplicacionAcomodador = $SexoAcomodador * $PromedioAcomodador * $RecintoAcomodador*0.181818181818182;
+                        $MultiplicacionDivergente = $SexoDivergente * $PromedioDivergente * $RecintoDivergente*0.272727272727273;
+                        $MultiplicacionConvergente = $SexoConvergente * $PromedioConvergente * $RecintoConvergente*0.272727272727273;
                         $arrayS = [$MultiplicacionAsimilador, $MultiplicacionAcomodador, $MultiplicacionDivergente, $MultiplicacionConvergente];
                         sort($arrayS, SORT_NUMERIC);
                         $estilo = $arrayS[3];
