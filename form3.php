@@ -101,8 +101,8 @@ include("conexion.php")
                         $RecintoFemenino = $rowRecintoQ['RecintoFemenino'];
                         $RecintoMasculino = $rowRecintoQ['RecintoMasculino'];
                         //se suman los valores
-                        $MultiplicacionFemenino = $EstiloFemenino * $PromedioFemenino * $RecintoFemenino;
-                        $MultiplicacionMasculino = $EstiloMasculino * $PromedioMasculino * $RecintoMasculino;
+                        $MultiplicacionFemenino = $EstiloFemenino * $PromedioFemenino * $RecintoFemenino*0.168831168831169;
+                        $MultiplicacionMasculino = $EstiloMasculino * $PromedioMasculino * $RecintoMasculino*0.831168831168831;
                         //se da el resultado mas grande
                         if ($MultiplicacionFemenino > $MultiplicacionMasculino) {
                             $sexo = 'Femenino';
