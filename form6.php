@@ -128,8 +128,8 @@
                         $rowCosto = mysqli_fetch_array($costoResultQ);
                         $FrecuenciaCostoA = $rowCosto['FrecuenciaCostoA'];
                         $FrecuenciaCostoB = $rowCosto['FrecuenciaCostoB'];
-                        $MultiplicacionA = $FrecuenciaFiabilidadA * $FrecuenciaLinksA * $FrecuenciaCapacidadA * $FrecuenciaCostoA;
-                        $MultiplicacionB = $FrecuenciaFiabilidadB * $FrecuenciaLinksB * $FrecuenciaCapacidadB * $FrecuenciaCostoB;
+                        $MultiplicacionA = $FrecuenciaFiabilidadA * $FrecuenciaLinksA * $FrecuenciaCapacidadA * $FrecuenciaCostoA*0.457142857142857;
+                        $MultiplicacionB = $FrecuenciaFiabilidadB * $FrecuenciaLinksB * $FrecuenciaCapacidadB * $FrecuenciaCostoB*0.542857142857143;
                            $result= '';
                         if ($MultiplicacionA > $MultiplicacionB) {
                             $result = 'A';
