@@ -103,8 +103,8 @@ include("conexion.php")
                         $SexoParaiso = $rowSexoQ['SexoParaiso'];
                         $SexoTurrialba = $rowSexoQ['SexoTurrialba'];
                         //se realiza la suma
-                        $MultiplicacionParaiso = $EstiloParaiso * $PromedioParaiso * $SexoParaiso;
-                        $MultiplicacioTurrialba = $EstiloTurrialba * $PromedioTurrialba * $PromedioParaiso;
+                        $MultiplicacionParaiso = $EstiloParaiso * $PromedioParaiso * $SexoParaiso*0.493506493506493;
+                        $MultiplicacioTurrialba = $EstiloTurrialba * $PromedioTurrialba * $PromedioParaiso*0.506493506493506;
                         if ($MultiplicacionParaiso > $MultiplicacioTurrialba) {
                             $recinto = 'Paraiso';
                         } else {
