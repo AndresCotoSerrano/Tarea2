@@ -139,7 +139,7 @@
                         echo '   
                         <br>               
                         <div class="alert alert-primary" role="alert">
-                        ' . $MultiplicacionA . '
+                        ' . $FrecuenciaLinksA . '.
                       </div>';
                     }
                     ?>
