@@ -193,9 +193,9 @@
                         $FrecuenciaWebBeginner = $RWeb['FrecuenciaWebBeginner'];
                         $FrecuenciaWebIntermedio = $RWeb['FrecuenciaWebIntermedio'];
                         $FrecuenciaWebAvanzado = $RWeb['FrecuenciaWebAvanzado'];
-                        $MultiplicacionBeginner = $FrecuenciaEdadBeginner * $FrecuenciaSexoBeginner * $FrecuenciaAutoEvaluacionBeginner * $FrecuenciaImpartidoBeginner * $FrecuenciaEspecializadoBeginner * $FrecuenciaComputadoraBeginner * $FrecuenciaWebEBeginner * $FrecuenciaWebBeginner;
-                        $MultiplicacionIntermedio = $FrecuenciaEdadIntermedio * $FrecuenciaSexoIntermedio * $FrecuenciaAutoEvaluacionIntermedio * $FrecuenciaImpartidoIntermedio * $FrecuenciaEspecializadoIntermedio * $FrecuenciaComputadoraIntermedio * $FrecuenciaWebEIntermedio * $FrecuenciaWebIntermedio;
-                        $MultiplicacionAvanzado = $FrecuenciaEdadAvanzado * $FrecuenciaSexoAvanzado * $FrecuenciaAutoEvaluacionAvanzado * $FrecuenciaImpartidoAvanzado * $FrecuenciaEspecializadoAvanzado * $FrecuenciaComputadoraAvanzado * $FrecuenciaWebEAvanzado * $FrecuenciaWebAvanzado;
+                        $MultiplicacionBeginner = $FrecuenciaEdadBeginner * $FrecuenciaSexoBeginner * $FrecuenciaAutoEvaluacionBeginner * $FrecuenciaImpartidoBeginner * $FrecuenciaEspecializadoBeginner * $FrecuenciaComputadoraBeginner * $FrecuenciaWebEBeginner * $FrecuenciaWebBeginner*0.45;
+                        $MultiplicacionIntermedio = $FrecuenciaEdadIntermedio * $FrecuenciaSexoIntermedio * $FrecuenciaAutoEvaluacionIntermedio * $FrecuenciaImpartidoIntermedio * $FrecuenciaEspecializadoIntermedio * $FrecuenciaComputadoraIntermedio * $FrecuenciaWebEIntermedio * $FrecuenciaWebIntermedio*0.3;
+                        $MultiplicacionAvanzado = $FrecuenciaEdadAvanzado * $FrecuenciaSexoAvanzado * $FrecuenciaAutoEvaluacionAvanzado * $FrecuenciaImpartidoAvanzado * $FrecuenciaEspecializadoAvanzado * $FrecuenciaComputadoraAvanzado * $FrecuenciaWebEAvanzado * $FrecuenciaWebAvanzado*0.25;
                         if ($MultiplicacionBeginner > $MultiplicacionIntermedio && $MultiplicacionBeginner > $MultiplicacionAvanzado) {
                             $result = 'Beginner';
                         } else if ($MultiplicacionIntermedio > $MultiplicacionBeginner && $MultiplicacionIntermedio > $MultiplicacionAvanzado) {
