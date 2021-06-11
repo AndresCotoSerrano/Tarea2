@@ -130,8 +130,8 @@
                         $FrecuenciaCostoB = $rowCosto['FrecuenciaCostoB'];
                         $MultiplicacionA = $FrecuenciaFiabilidadA * $FrecuenciaLinksA * $FrecuenciaCapacidadA * $FrecuenciaCostoA;
                         $MultiplicacionB = $FrecuenciaFiabilidadB * $FrecuenciaLinksB * $FrecuenciaCapacidadB * $FrecuenciaCostoB;
-
-                        if ($MultiplicacionA < $MultiplicacionB) {
+                           $result= '';
+                        if ($MultiplicacionA > $MultiplicacionB) {
                             $result = 'A';
                         } else {
                             $result = 'B';
