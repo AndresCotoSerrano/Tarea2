@@ -84,18 +84,18 @@
                             <label for="Select" class="form-label">Capacidad</label>
                             <select id="capacidad" name="capacidad" class="form-select">
                                 <option>Seleccione uno</option>
-                                <option>Baja </option>
-                                <option> Media </option>
-                                <option> Alta </option>
+                                <option value='1'>Baja </option>
+                                <option value='2'> Media </option>
+                                <option value='3'> Alta </option>
                             </select>
                         </div>
                         <div class="mb-3">
                             <label for="Select" class="form-label">Costo</label>
                             <select id="costo" name="costo" class="form-select">
                                 <option>Seleccione uno</option>
-                                <option> Baja </option>
-                                <option> Media </option>
-                                <option> Alta </option>
+                                <option value='1'> Baja </option>
+                                <option value='2'> Media </option>
+                                <option value='3'> Alta </option>
                             </select>
                         </div>
                         <input type="submit" id="Enviar" class="btn btn-primary" name="form6" value="Enviar">
@@ -139,7 +139,7 @@
                         echo '   
                         <br>               
                         <div class="alert alert-primary" role="alert">
-                        ' . $FrecuenciaCapacidadA . '.
+                        ' . $result . '.
                       </div>';
                     }
                     ?>
